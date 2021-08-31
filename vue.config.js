@@ -5,7 +5,8 @@ module.exports = {
     resolve: {
       alias: {
         '@': path.join(__dirname, 'src/')
-      }
+      },
+      extensions: ['.js', '.vue']
     }
   },
   css : {
@@ -14,7 +15,7 @@ module.exports = {
         additionalData: `
           @import "@/scss/main.scss";
         `
-      }
+      },
     }
   }
 }

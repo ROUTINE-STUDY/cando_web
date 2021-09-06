@@ -17,9 +17,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$logoHeight: 70px;
-$footerHeight: 144px;
-
 .container {
   display: flex;
   justify-content: center;

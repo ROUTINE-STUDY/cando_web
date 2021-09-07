@@ -1,15 +1,14 @@
 <template>
-  <div class="logo">
+  <RouterLink to="/" class="logo">
     <img src="@/assets/logo.png" alt="logo" >
-  </div>
+  </RouterLink>
 </template>
 
 <style lang="scss" scoped>
 .logo {
+  display: block;
   width: 150px;
   height: 50px;
-  margin-top: 20px;
-  margin-left: 50px;
   img {
     width: 100%;
     height: 100%;

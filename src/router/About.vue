@@ -34,7 +34,7 @@
       <article class="profile">
         <img src="https://avatars.githubusercontent.com/u/76811291?v=4" alt="프로필 이미지">
 
-        <h1>승현 킴</h1>
+        <h1>SeungHyeon Kim</h1>
         <h2>Back-End</h2>
       </article>
       <ul class="contact">
@@ -48,7 +48,7 @@
         </li>
         <li>
           <fa :icon="['fas', 'envelope']" class="icon" />
-          <span><a href="mailto:moonshin123@naver.com">moonshin123@naver.com</a></span>
+          <span><a href="mailto:ckdbioksh@naver.com">ckdbioksh@naver.com</a></span>
         </li>
       </ul>
     </section>
@@ -60,7 +60,7 @@
       <article class="profile">
         <img src="https://avatars.githubusercontent.com/u/68156400?v=4" alt="프로필 이미지">
 
-        <h1>인규 황</h1>
+        <h1>InGyu Hwang</h1>
         <h2>Android</h2>
       </article>
       <ul class="contact">
@@ -74,7 +74,7 @@
         </li>
         <li>
           <fa :icon="['fas', 'envelope']" class="icon" />
-          <span><a href="mailto:moonshin123@naver.com">moonshin123@naver.com</a></span>
+          <span><a href="mailto:inqbator@knou.ac.kr">inqbator@knou.ac.kr</a></span>
         </li>
       </ul>
     </section>
@@ -174,6 +174,10 @@ export default {
         }
       }
     }
+  }
+  @include media-breakpoint-down(xl) {
+    height: calc(100% - #{$logoHeight} - #{$footerHeight});
+    flex-wrap: wrap;
   }
 }
 </style>

@@ -2,6 +2,8 @@ import { createRouter, createWebHashHistory } from 'vue-router';
 import Home from './Home';
 import Login from './Login';
 import Register from './Register';
+import DiaryList from './DiaryList';
+import DiaryPost from './DiaryPost';
 import About from './About';
 
 export default createRouter({
@@ -18,6 +20,14 @@ export default createRouter({
     {
       path: '/register',
       component: Register
+    },
+    {
+      path: '/diary/list',
+      component: DiaryList
+    },
+    {
+      path: '/diary/post',
+      component: DiaryPost
     },
     {
       path: '/about',

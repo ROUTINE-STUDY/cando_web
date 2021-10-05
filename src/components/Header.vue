@@ -1,7 +1,7 @@
 <template>
   <header>
     <Logo/>
-    <div v-if="false" class="nav nav-pills">
+    <div v-if="true" class="nav nav-pills">
       <div v-for="nav in memberNavigations" :key="nav.name" class="nav-item">
         <RouterLink :to="nav.href" active-class="active" class="nav-link">
           {{ nav.name }}

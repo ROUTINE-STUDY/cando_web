@@ -1,13 +1,34 @@
 <template>
   <div class="container">
     <div class="inner">
-      <h2>회원가입</h2>
-      <input type="text" placeholder="아이디">
-      <input type="password" placeholder="비밀번호">
-      <input type="text" placeholder="이름">
-      <input type="email" placeholder="이메일">
-      <input type="tel" placeholder="휴대전화">
-      <button class="btn btn-secondary">회원가입</button>
+      <form action="#" method="post">
+        <h2>Login</h2>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingInput" placeholder="아이디">
+          <label for="floatingInput">아이디</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="비밀번호">
+          <label for="floatingPassword">비밀번호</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPasswordCheck" placeholder="비밀번호확인">
+          <label for="floatingPasswordCheck">비밀번호확인</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingName" placeholder="이름">
+          <label for="floatingName">이름</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingEmail" placeholder="이메일">
+          <label for="floatingEmail">이메일</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPhone" placeholder="휴대전화">
+          <label for="floatingPhone">휴대전화</label>
+        </div>
+        <button type="submit" class="btn btn-secondary">회원가입</button>
+      </form>
     </div>
   </div>
 </template>

@@ -34,7 +34,7 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-  height: calc(100vh - #{$logoHeight} - #{$footerHeight});
+  height: calc(100vh - #{$logoHeight} - #{$footerHeight} - 13px);
   display: flex;
   flex-direction: column;
   justify-content: center;
